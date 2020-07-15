@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Incremental order</title>
+    <script type="text/javascript">
+    	function IncrementalOrder(){
+    		var firstTextBox = parseInt(document.getElementById("first").value);
+    		for(i=0; i <= firstTextBox; i++)
+ {
+  for(j=1; j<=i; j++)
+ {
+   
+   document.write(firstTextBox);
+  }
+   document.write('<br />');
+  }
+    	}
+
+    </script>
+</head>
+<body>
+<input type="text" name="firstTextBox" placeholder="enter number" id="first">
+<input type="button" value="Submit" onclick="IncrementalOrder()" >
+</body>
+</html>
